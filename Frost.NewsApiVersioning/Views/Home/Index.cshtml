@@ -1,0 +1,77 @@
+﻿@{
+   ViewData["Title"] = "Home Page";
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/site.js"></script>
+<h2>Book Deals for 80% discounted on Amazon</h2>
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+   </ol>
+   <div class="carousel-inner" role="listbox">
+      <div class="item active" style="background-color:yellowgreen">         
+         <div class="carousel-caption" style="color:yellow" role="option">
+            <p>
+               Learn Professional Entity Framework Core 2.0 & 6.x with Examples:
+               <a class="btn btn-success active" href="https://www.amazon.com/Professional-Entity-Framework-Core-Examples-ebook/dp/B077WT7J3Q/ref=asap_bc?ie=UTF8">
+                  Learn More
+               </a>
+            </p>
+         </div>
+      </div>
+      <div class="item" style="background-color:blueviolet">
+         <img src="~/images/JumpStartAspNetCore2MvcJQueryFront.jpg" alt="Visual Studio" class="img-responsive" />
+         <div class="carousel-caption" style="color:yellow" role="option">
+            <p>
+               JumpStart
+               ASP.NET Core 2.0
+               and jQuery
+               with Examples.
+               <a class="btn btn-info active" href="https://www.amazon.com/JumpStart-ASP-NET-Core-jQuery-Examples-ebook/dp/B076YMPYCS/ref=asap_bc?ie=UTF8">
+                  Learn More
+               </a>
+            </p>
+         </div>
+      </div>
+      <div class="item" style="background-color:forestgreen">
+         <img src="~/images/Ang5Front.jpg" alt="Package Management" class="img-responsive" />
+         <div class="carousel-caption" style="color:yellow" role="option">
+            <p>
+               Angular 5.0: ASP.NET Core 2.0 and Web API with Examples.
+               <a class="btn btn-success active" href="https://www.amazon.com/Angular-5-0-ASP-NET-Core-Examples-ebook/dp/B077Y88W6W/ref=asap_bc?ie=UTF8">
+                  Learn More
+               </a>
+            </p>
+         </div>
+      </div>
+      <div class="item" style="background-color: lawngreen">
+         <img src="~/images/Top10Interview QuestionsforSoftwareDevelopers.jpg" alt="Microsoft Azure" class="img-responsive" />
+         <div class="carousel-caption" style="color:yellow" role="option">
+            <p>
+               Top 10 Interview Questions for Software Developers.
+               <a class="btn btn-info active" href="https://www.amazon.com/Top-Interview-Questions-Software-Developers-ebook/dp/B076PKRGRN/ref=asap_bc?ie=UTF8">
+                  Learn More
+               </a>
+            </p>
+         </div>
+      </div>
+   </div>
+   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+   </a>
+</div>
+<hr />
+
+
+
+
+<div id="msg" class="alert alert-danger"></div>
+
